@@ -1,0 +1,224 @@
+  body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+  a{
+    text-decoration: none;
+  }
+
+ /* Headings Section*/
+  .big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+
+  .section-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .feature-title{
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+
+  p{
+    color: #8f8f8f;
+  }
+ 
+ .container-fluid{
+    padding: 3% 15% 7%;
+  }
+
+  /* Title Section */
+  #title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+  }
+
+ /* Navigration Bar */
+  .navbar{
+    padding:0 0 4.5rem;
+  }
+
+  .navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .tindog-logo{
+    margin-right: 5px;
+    width: 10%;
+  }
+
+  .nav-item{
+    padding: 0 18px;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+  }
+
+  /* Download Buttons */
+  .download-button{
+    margin:  5% 3% 5% 0;
+  }
+  
+  /* Title-image */
+  .title-image{
+    transform: rotate(25deg);
+    position: absolute;
+    padding-left: 50px ;
+    width: 70%;
+    right: 30%;
+  }
+
+  .title-img-div{
+    position: relative;
+  }
+  
+  /* Features Section */
+  #features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    /* bottom: 180px; */
+   
+  }
+
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+
+  .icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+  }
+  .icon:hover{
+    color: #ff4c68;
+    /* color: #d6002f;  Dark red color for social media hover*/
+  }
+
+  /* Testimonials Section */
+  
+  #testimonials{
+    background-color: #ef8172;
+    color: white;
+  }
+
+  .testimonials-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+  .testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .carousel-item{
+    padding: 7% 15%;
+  }
+
+  /* Press Section */
+  
+  #press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  /* Pricing Section */
+  
+  #pricing{
+    padding: 100px;
+  }
+
+  .price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .pricing-column{
+    padding: 3% 2%;
+  }
+  
+  .card-header{
+    background-color: #ff4c68;
+    color: white;
+  }
+
+  /* CTA Section */
+  
+  #cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+  }
+  
+  .cta-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+
+  /* Footer Section */
+  
+  #footer{
+    padding: 7% 5% 3% 5%;
+  }
+
+  .footer-text{
+    text-align: left;
+  }
+
+  .footer-text>p::selection{
+    color: white;
+    background-color: #ff4c68;
+  }
+
+  .social-icon{
+    margin: 60px 10px;
+    color: black;
+  }
+
+  .social-icon:hover{
+    color: #d6002f;
+  }
+   
+  .copyright-message:hover{
+    color: #ff4c68;
+  }
+
+  /* Media Queriers */
+  
+  @media(max-width: 1020px){
+    
+    #title{
+      text-align: center;
+    }
+    
+    .title-image{
+      position: static;
+      transform: rotate(0);
+    }
+  }
