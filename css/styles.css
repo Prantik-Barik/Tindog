@@ -56,8 +56,8 @@
   }
 
   .tindog-logo{
-    margin-right: 5px;
-    width: 10%;
+   width: 50px;
+   height: 50px;
   }
 
   .nav-item{
@@ -221,4 +221,8 @@
       position: static;
       transform: rotate(0);
     }
+  }
+
+  .tindog-logo:hover{
+    transform: scale(1.1) rotate(25deg);
   }
